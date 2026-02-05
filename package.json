@@ -1,0 +1,12 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Professional Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "dev": "echo 'Development mode - open index.html in browser'"
+  },
+  "keywords": ["portfolio", "cyberpunk", "static-site"],
+  "author": "Fernando",
+  "license": "MIT"
+}

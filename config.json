@@ -1,0 +1,261 @@
+{
+  "features": {
+    "about": true,
+    "achievements": true,
+    "projects": true,
+    "experience": true,
+    "skills": true,
+    "github_projects": true
+  },
+  "site": {
+    "title": "Fernando Topete - Electronics Engineer & Full Stack Developer",
+    "description": "Senior Python Developer with almost 5 years of experience, I simplify complex tasks and believe that ‘if it is structured, it can be automated’. My keen interest in Generative AI and its capabilities has allowed me to build and even win prizes by building and presenting Generative AI-based applications in various places. So let me ask you, what are we going to build next?",
+    "seo": {
+      "title": "Fernando Topete - Electronics Engineer & Full Stack Developer",
+      "description": "Mid Senior Python Developer with almost 5 years of experience, I simplify complex tasks and believe that ‘if it is structured, it can be automated’. My keen interest in Generative AI and its capabilities has allowed me to build and even win prizes by building and presenting Generative AI-based applications in various places. So let me ask you, what are we going to build next?",
+      "keywords": "Python, AI, ML, Multi Cloud - AWS • GCP • Azure • OCI, Expertise in Generative AI, Automation, Scripting, DevOps, Designing, Troubleshooting, software engineer",
+      "author": "Fernando Topete",
+      "og_image": "https://avatars.githubusercontent.com/eltopts",
+      "twitter_card": "summary_large_image",
+      "base_url": "https://eltopts.github.io"
+    }
+  },
+  "header": {
+    "greeting": "Fernando Topete",
+    "tagline": "Electronics Engineer & Full Stack Developer"
+  },
+  "social_links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/eltopts",
+      "icon": "github",
+      "required": true
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=shishir-srivastav",
+      "icon": "linkedin",
+      "required": true
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/topts99",
+      "icon": "instagram",
+      "required": false
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/@Topts99",
+      "icon": "youtube",
+      "required": false
+    }
+  ],
+  "github_username": "eltopts",
+  "about": {
+    "paragraphs": [
+      "👋 Welcome! I'm Mid Senior Developer with almost 5 years of experience, I simplify complex tasks and believe that ‘if it is structured, it can be automated’. My keen interest in Generative AI and its capabilities has allowed me to build and even win prizes by building and presenting Generative AI-based applications in various places. So let me ask you, what are we going to build next?"
+    ]
+  },
+  "achievements": {
+    "title": "Key Highlights",
+    "items": [
+      {
+        "type": "youtube",
+        "title": "YouTube Channel",
+        "stat": "Some Subscribers",
+        "description": "Created a YouTube channel as a hobby to upload Bass covers",
+        "icon": "📹",
+        "link": {
+          "url": "https://www.youtube.com/@Topts99",
+          "title": "Watch Videos"
+        }
+      },
+      {
+        "type": "linkedin",
+        "title": "Professional Network",
+        "stat": "Building my network",
+        "description": "Building a strong professional network.",
+        "icon": "🌐",
+        "link": {
+          "url": "www.linkedin.com/in/fernando-gtopete",
+          "title": "Connect on LinkedIn"
+        }
+      },
+      {
+        "type": "instagram",
+        "title": "Instagram Community",
+        "stat": "Some Followers",
+        "description": "Building an engaged community on Instagram.",
+        "icon": "📸",
+        "link": {
+          "url": "https://www.instagram.com/topts99",
+          "title": "Connect on Instagram"
+        }
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "items": [
+      {
+        "name": "Big Table café - A Virtual Space",
+        "date": "July 2025",
+        "description": [
+          "A virtual social café platform with multi-tenant café spaces, real-time chat, AI bartender integration, voice messaging, virtual ordering, and enterprise-grade security. Experience the future of social interaction in beautifully themed virtual environments.",
+          "Features: ",
+          "Chat rooms.",
+          "AI assistant/companion.",
+          "Pomodoro Focus room",
+          "Google Auth"
+        ],
+        "picture": "assets/projects/cafe-home.png",
+        "link": {
+          "url": "https://github.com/eltopts/bigtablecafe",
+          "title": "View Project"
+        }
+      },
+      {
+        "name": "Automation Generator Tool",
+        "date": "July 2024",
+        "description": [
+          "This application allows users to upload an SOP based pdf, which lets them create an Automation around it, by providing a block daigram (text based), a script and list of pre-requisites to run the script, The AI being utilized here is Gemini-pro.",
+          "Features: ",
+          "Queries MongoDB for existing solutions.",
+          "Upload SOP based PDF & Summarising of the PDF.",
+          "AI-powered script, flow and pre-requisite generation.",
+          "Option to regenerate review code and regenerate it."
+        ],
+        "picture": "assets/projects/automation-generator.png",
+        "link": {
+          "url": "https://github.com/eltopts/Automation-Generator",
+          "title": "View Project"
+        }
+      }
+    ]
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "jobs": [
+      {
+        "company": "Coaliton Technologies",
+        "role": "Wordpress Developer",
+        "date": "January 2024 - December 2024",
+        "responsibilities": [
+          "Engineered a custom Wordpress solution to: a high-trafic e-commence site.",
+          "Developed and managed over so customized WordPress themes and plugins for various clients.",
+          "Effectively translated client requirements into application designs and system requirements."
+        ],
+        "logo": "assets/logos/coalition_technologies_logo.png",
+        "logo_dark": "assets/logos/coalition_technologies_logo.png"
+      },
+      {
+        "company": "Zoostation B.V.",
+        "role": "Backend Developer",
+        "date": "November 2022 - Decemeber 2023",
+        "responsibilities": [
+          "Designed, developed, and maintained scalable Mckend services usingmodem frameworks and architectural patterns.",
+          "Developed multiple Python solutions to fetch EC2 instances data using Lambda functions and fetch WAF reports data from S3 buckets with boto3, worked with Lambda, ECR, ECS, RDS, DynamoDB, Cloud Formation (CDK), AWS CLI etc.",
+          "Implemented multiple generative AI (Gen AI) based solutions, such as Chat Interface using Lang Chain, added query analysis for improving search quality for phrasing to LLMs while maintaining chat history and meeting notes summary generator.",
+          "Ensured consistent results using Python, Terraform and PowerShell by implementing across multiple clouds such as AWS and Azure for managing servers, creating infrastructures and deploying solutions, reducing deployment time by in range of 40-50%.",
+          "As a developer provided feedback, mentored and guided colleagues and new joiners for smooth transition in projects, and authored white papers and SOPs for simplifying the DevOps process."
+        ],
+        "logo": "assets/logos/Zoostation-logo.png",
+        "logo_dark": "assets/logos/Zoostation-logo.png"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "categories": [
+      {
+        "name": "Programming Languages",
+        "items": [
+          "Python",
+          "R",
+          "Java",
+          "JavaScript",
+          "TypeScript",
+          "PowerShell",
+          "Shell/Bash Scripting"
+        ]
+      },
+      {
+        "name": "AI & Machine Learning",
+        "items": [
+          "AI Security",
+          "Generative AI",
+          "Natural Language Processing (NLP)",
+          "Machine Learning",
+          "Deep Learning",
+          "Computer Vision",
+          "AI Agents",
+          "Function Calling",
+          "RAG (Retrieval Augmented Generation)",
+          "LangChain",
+          "LangGraph"
+        ]
+      },
+      {
+        "name": "Cloud Platforms",
+        "items": [
+          "AWS",
+          "Google Cloud Platform (GCP)",
+          "Microsoft Azure",
+          "Oracle Cloud Infrastructure (OCI)"
+        ]
+      },
+      {
+        "name": "DevOps & Automation",
+        "items": [
+          "CI/CD",
+          "Infrastructure as Code (IaC)",
+          "Docker",
+          "Kubernetes",
+          "Terraform",
+          "Ansible",
+          "Jenkins",
+          "AzureDevOps",
+          "GitHub Actions",
+          "AWS Lambda",
+          "Boto3 Automations"
+        ]
+      },
+      {
+        "name": "Web Development",
+        "items": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React.js",
+          "Next.js",
+          "Node.js",
+          "Express.js"
+        ]
+      },
+      {
+        "name": "Back-End",
+        "items": [
+          "Node.js",
+          "MongoDB",
+          "PostgreSQL",
+          "MySQL",
+          "Redis",
+          "Django",
+          "FastAPI",
+          "Flask",
+          "REST API",
+          "Streamlit"
+        ]
+      }
+    ]
+  },
+  "github_projects": {
+    "title": "Projects on GitHub"
+  },
+  "footer": {
+    "show_social_links": true,
+    "show_built_with": true,
+    "built_with_text": "Built with ❤️ using vanilla JavaScript • Open Source",
+    "tagline": "Let's connect and build something amazing together! 🚀"
+  }
+}
